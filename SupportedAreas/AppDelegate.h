@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    BOOL supported_or_not;
+    BOOL supported_or_not_error;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
